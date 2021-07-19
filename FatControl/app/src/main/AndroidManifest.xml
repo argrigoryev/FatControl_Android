@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fatcontrol">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FatControl">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5736477854640852~7836070911"/>
+
+        <activity android:name=".CarbonActivity"></activity>
+        <activity android:name=".FatsActivity" />
+        <activity android:name=".ProteinActivity" />
+        <activity android:name=".KkalMoreActivity" />
+        <activity android:name=".KkalActivity" />
+        <activity android:name=".KetleActivity" />
+        <activity android:name=".NormalWeightActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
